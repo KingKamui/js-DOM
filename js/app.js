@@ -4,7 +4,8 @@
 
 Find the element with the id of "name1":
 	- Replace the content with the following string "Tay-Tay"*/
-document.getElementById("name1").innerHTML = "Tay-Tay"
+
+document.getElementById("name1").innerHTML ="'Tay-Tay'";
 
 
 /*2. DJ Khaled
@@ -13,8 +14,9 @@ Find the element with the id of "position2":
 	- Replace the content with the following string "Project Manager"
 	- Change the background color to red
 */
+
 document.getElementById("position2").innerHTML = "Project Manager";
-document.getElementById("position2").styles.color = "red"
+document.getElementById("position2").styles.color = "red";
 
 
 /*3. Piko Taro
@@ -24,7 +26,8 @@ Find the element with the id of "alias3":
 	- Change the font size to 40
 */
 document.getElementById("alias3").innerHTML = "Concatenation";
-document.getElementById("alias3").styles.fontSize = "40px"
+document.getElementById("alias3").styles.fontSize = "40px";
+
 
 /*4. Prince
 
@@ -33,12 +36,17 @@ Find the element with the class name of "profile":
 	- Change the styles of the font-family to Sans Serif
 */
 
+document.getElementByClassName("profile").innerHTML = "Come on over to my neighborhood";
+document.getElementByClassName("profile").styles.fontFamily = "Sans Serif";
+
+
 /*5. Bruce Lee
 
 Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
 
+document.getElementByClassName("profile").className = "Adapt what is useful, reject what is useless, and add what is specifically your own.";
 
 
 /*6. Samuel L Jackson
@@ -47,6 +55,7 @@ Find the element with the class name of "alias":
 	- Replace the content with your favorite character that Sammy portrayed
 */
 
+document.getElementByClassName("alias").className = "Nick Fury, Richmond Valentine";
 
 
 /*7. Peter Griffin
@@ -55,6 +64,10 @@ Create a div element and give it an id of "name7":
 	- Inside this div element, give it the contents of "Peter Griffin"
 	- Append this div element to the element with id "nameParent"
 */
+
+ document.createElement("div");
+ document.createElement("id="name7"");
+ document.getElementById("name7").innerHTML = "Peter Griffin";
  
 /*8. Tim Duncan
 
@@ -62,6 +75,12 @@ Create a div element give it an id of "alias8":
 	- Inside this div element, give it the contents of "Old Man Riverwalk"
 	- Append this div element to the element with id "aliasParent"
 */
+
+ document.createElement("div");
+ document.createElement("id="alias8"");
+ document.getElementById("alias8").innerHTML = "Old Man Riverwalk";
+ document.appendChild("id="alias8"");
+
 
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
